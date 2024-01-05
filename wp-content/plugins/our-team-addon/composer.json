@@ -1,0 +1,32 @@
+{
+  "name": "vendor/our-team-addon",
+  "type": "wordpress-plugin",
+  "description": "Our Team Addon for WordPress",
+  "authors": [
+    {
+      "name": "Name",
+      "email": "email@example.com"
+    }
+  ],
+  "autoload": {
+    "psr-4": {
+      "YourVendor\\OurTeamAddon\\": "includes/"
+    }
+  },
+  "require": {
+    "php": ">=8.1",
+    "composer/installers": "^1.9",
+    "johnpbloch/wordpress": "^6.4.2"
+  },
+  "extra": {
+    "installer-paths": {
+      "wp-content/plugins/{$name}/": ["type:wordpress-plugin"]
+    }
+  },
+  "config": {
+    "allow-plugins": {
+      "composer/installers": true,
+      "johnpbloch/wordpress-core-installer": true
+    }
+  }
+}

@@ -1,0 +1,860 @@
+[04-Jan-2024 16:24:46 UTC] PHP Fatal error:  Uncaught TypeError: call_user_func(): Argument #1 ($callback) must be a valid callback, class RealEstateManager does not have a method "render_dashboard_widget" in /var/www/testwp2/wp-admin/includes/template.php:1456
+Stack trace:
+#0 /var/www/testwp2/wp-admin/includes/dashboard.php(271): do_meta_boxes()
+#1 /var/www/testwp2/wp-admin/index.php(204): wp_dashboard()
+#2 {main}
+  thrown in /var/www/testwp2/wp-admin/includes/template.php on line 1456
+[04-Jan-2024 18:03:44 UTC] PHP Parse error:  syntax error, unexpected token "\" in /var/www/testwp2/wp-content/themes/quotesin/app/Shortcodes.php on line 11
+[04-Jan-2024 18:49:43 UTC] Query Args: Array
+(
+    [post_type] => art
+    [posts_per_page] => 10
+    [order] => ASC
+    [orderby] => title
+    [tax_query] => Array
+        (
+            [0] => Array
+                (
+                    [taxonomy] => music
+                    [field] => slug
+                    [terms] => 
+                )
+
+        )
+
+)
+
+[04-Jan-2024 18:49:43 UTC] Query SQL: 
+					SELECT SQL_CALC_FOUND_ROWS  wp_posts.ID
+					FROM wp_posts 
+					WHERE 1=1  AND ( 
+  0 = 1
+) AND ((wp_posts.post_type = 'art' AND (wp_posts.post_status = 'publish' 
+OR wp_posts.post_status = 'private')))
+					GROUP BY wp_posts.ID
+					ORDER BY wp_posts.post_title ASC
+					LIMIT 0, 10
+				
+[04-Jan-2024 18:49:44 UTC] Query Args: Array
+(
+    [post_type] => art
+    [posts_per_page] => 10
+    [order] => ASC
+    [orderby] => title
+    [tax_query] => Array
+        (
+            [0] => Array
+                (
+                    [taxonomy] => music
+                    [field] => slug
+                    [terms] => 
+                )
+
+        )
+
+)
+
+[04-Jan-2024 18:49:44 UTC] Query SQL: 
+					SELECT SQL_CALC_FOUND_ROWS  wp_posts.ID
+					FROM wp_posts 
+					WHERE 1=1  AND ( 
+  0 = 1
+) AND ((wp_posts.post_type = 'art' AND (wp_posts.post_status = 'publish' 
+OR wp_posts.post_status = 'private')))
+					GROUP BY wp_posts.ID
+					ORDER BY wp_posts.post_title ASC
+					LIMIT 0, 10
+				
+[04-Jan-2024 18:49:44 UTC] Query Args: Array
+(
+    [post_type] => art
+    [posts_per_page] => 10
+    [order] => ASC
+    [orderby] => title
+    [tax_query] => Array
+        (
+            [0] => Array
+                (
+                    [taxonomy] => music
+                    [field] => slug
+                    [terms] => 
+                )
+
+        )
+
+)
+
+[04-Jan-2024 18:49:44 UTC] Query SQL: 
+					SELECT SQL_CALC_FOUND_ROWS  wp_posts.ID
+					FROM wp_posts 
+					WHERE 1=1  AND ( 
+  0 = 1
+) AND ((wp_posts.post_type = 'art' AND (wp_posts.post_status = 'publish' 
+OR wp_posts.post_status = 'private')))
+					GROUP BY wp_posts.ID
+					ORDER BY wp_posts.post_title ASC
+					LIMIT 0, 10
+				
+[04-Jan-2024 18:50:17 UTC] Query Args: Array
+(
+    [post_type] => art
+    [posts_per_page] => 10
+    [order] => ASC
+    [orderby] => title
+    [tax_query] => Array
+        (
+            [0] => Array
+                (
+                    [taxonomy] => music
+                    [field] => slug
+                    [terms] => 
+                )
+
+        )
+
+)
+
+[04-Jan-2024 18:50:17 UTC] Query SQL: 
+					SELECT SQL_CALC_FOUND_ROWS  wp_posts.ID
+					FROM wp_posts 
+					WHERE 1=1  AND ( 
+  0 = 1
+) AND ((wp_posts.post_type = 'art' AND (wp_posts.post_status = 'publish' 
+OR wp_posts.post_status = 'private')))
+					GROUP BY wp_posts.ID
+					ORDER BY wp_posts.post_title ASC
+					LIMIT 0, 10
+				
+[04-Jan-2024 18:50:18 UTC] Query Args: Array
+(
+    [post_type] => art
+    [posts_per_page] => 10
+    [order] => ASC
+    [orderby] => title
+    [tax_query] => Array
+        (
+            [0] => Array
+                (
+                    [taxonomy] => music
+                    [field] => slug
+                    [terms] => 
+                )
+
+        )
+
+)
+
+[04-Jan-2024 18:50:18 UTC] Query SQL: 
+					SELECT SQL_CALC_FOUND_ROWS  wp_posts.ID
+					FROM wp_posts 
+					WHERE 1=1  AND ( 
+  0 = 1
+) AND ((wp_posts.post_type = 'art' AND (wp_posts.post_status = 'publish' 
+OR wp_posts.post_status = 'private')))
+					GROUP BY wp_posts.ID
+					ORDER BY wp_posts.post_title ASC
+					LIMIT 0, 10
+				
+[04-Jan-2024 18:50:18 UTC] Query Args: Array
+(
+    [post_type] => art
+    [posts_per_page] => 10
+    [order] => ASC
+    [orderby] => title
+    [tax_query] => Array
+        (
+            [0] => Array
+                (
+                    [taxonomy] => music
+                    [field] => slug
+                    [terms] => 
+                )
+
+        )
+
+)
+
+[04-Jan-2024 18:50:18 UTC] Query SQL: 
+					SELECT SQL_CALC_FOUND_ROWS  wp_posts.ID
+					FROM wp_posts 
+					WHERE 1=1  AND ( 
+  0 = 1
+) AND ((wp_posts.post_type = 'art' AND (wp_posts.post_status = 'publish' 
+OR wp_posts.post_status = 'private')))
+					GROUP BY wp_posts.ID
+					ORDER BY wp_posts.post_title ASC
+					LIMIT 0, 10
+				
+[04-Jan-2024 18:50:19 UTC] Query Args: Array
+(
+    [post_type] => art
+    [posts_per_page] => 10
+    [order] => ASC
+    [orderby] => title
+    [tax_query] => Array
+        (
+            [0] => Array
+                (
+                    [taxonomy] => music
+                    [field] => slug
+                    [terms] => 
+                )
+
+        )
+
+)
+
+[04-Jan-2024 18:50:19 UTC] Query SQL: 
+					SELECT SQL_CALC_FOUND_ROWS  wp_posts.ID
+					FROM wp_posts 
+					WHERE 1=1  AND ( 
+  0 = 1
+) AND ((wp_posts.post_type = 'art' AND (wp_posts.post_status = 'publish' 
+OR wp_posts.post_status = 'private')))
+					GROUP BY wp_posts.ID
+					ORDER BY wp_posts.post_title ASC
+					LIMIT 0, 10
+				
+[04-Jan-2024 18:50:19 UTC] Query Args: Array
+(
+    [post_type] => art
+    [posts_per_page] => 10
+    [order] => ASC
+    [orderby] => title
+    [tax_query] => Array
+        (
+            [0] => Array
+                (
+                    [taxonomy] => music
+                    [field] => slug
+                    [terms] => 
+                )
+
+        )
+
+)
+
+[04-Jan-2024 18:50:19 UTC] Query SQL: 
+					SELECT SQL_CALC_FOUND_ROWS  wp_posts.ID
+					FROM wp_posts 
+					WHERE 1=1  AND ( 
+  0 = 1
+) AND ((wp_posts.post_type = 'art' AND (wp_posts.post_status = 'publish' 
+OR wp_posts.post_status = 'private')))
+					GROUP BY wp_posts.ID
+					ORDER BY wp_posts.post_title ASC
+					LIMIT 0, 10
+				
+[04-Jan-2024 18:50:23 UTC] Query Args: Array
+(
+    [post_type] => art
+    [posts_per_page] => 10
+    [order] => ASC
+    [orderby] => title
+    [tax_query] => Array
+        (
+            [0] => Array
+                (
+                    [taxonomy] => music
+                    [field] => slug
+                    [terms] => 
+                )
+
+        )
+
+)
+
+[04-Jan-2024 18:50:23 UTC] Query SQL: 
+					SELECT SQL_CALC_FOUND_ROWS  wp_posts.ID
+					FROM wp_posts 
+					WHERE 1=1  AND ( 
+  0 = 1
+) AND ((wp_posts.post_type = 'art' AND (wp_posts.post_status = 'publish' 
+OR wp_posts.post_status = 'private')))
+					GROUP BY wp_posts.ID
+					ORDER BY wp_posts.post_title ASC
+					LIMIT 0, 10
+				
+[04-Jan-2024 18:53:12 UTC] Query Args: Array
+(
+    [post_type] => art
+    [posts_per_page] => 10
+    [order] => ASC
+    [orderby] => title
+    [tax_query] => Array
+        (
+            [0] => Array
+                (
+                    [taxonomy] => music
+                    [field] => slug
+                    [terms] => 
+                )
+
+        )
+
+)
+
+[04-Jan-2024 18:53:12 UTC] Query SQL: 
+					SELECT SQL_CALC_FOUND_ROWS  wp_posts.ID
+					FROM wp_posts 
+					WHERE 1=1  AND ( 
+  0 = 1
+) AND ((wp_posts.post_type = 'art' AND (wp_posts.post_status = 'publish' 
+OR wp_posts.post_status = 'private')))
+					GROUP BY wp_posts.ID
+					ORDER BY wp_posts.post_title ASC
+					LIMIT 0, 10
+				
+[04-Jan-2024 18:53:13 UTC] Query Args: Array
+(
+    [post_type] => art
+    [posts_per_page] => 10
+    [order] => ASC
+    [orderby] => title
+    [tax_query] => Array
+        (
+            [0] => Array
+                (
+                    [taxonomy] => music
+                    [field] => slug
+                    [terms] => 
+                )
+
+        )
+
+)
+
+[04-Jan-2024 18:53:13 UTC] Query SQL: 
+					SELECT SQL_CALC_FOUND_ROWS  wp_posts.ID
+					FROM wp_posts 
+					WHERE 1=1  AND ( 
+  0 = 1
+) AND ((wp_posts.post_type = 'art' AND (wp_posts.post_status = 'publish' 
+OR wp_posts.post_status = 'private')))
+					GROUP BY wp_posts.ID
+					ORDER BY wp_posts.post_title ASC
+					LIMIT 0, 10
+				
+[04-Jan-2024 18:53:20 UTC] Query Args: Array
+(
+    [post_type] => art
+    [posts_per_page] => 10
+    [order] => ASC
+    [orderby] => title
+    [tax_query] => Array
+        (
+            [0] => Array
+                (
+                    [taxonomy] => music
+                    [field] => slug
+                    [terms] => 
+                )
+
+        )
+
+)
+
+[04-Jan-2024 18:53:20 UTC] Query SQL: 
+					SELECT SQL_CALC_FOUND_ROWS  wp_posts.ID
+					FROM wp_posts 
+					WHERE 1=1  AND ( 
+  0 = 1
+) AND ((wp_posts.post_type = 'art' AND (wp_posts.post_status = 'publish' 
+OR wp_posts.post_status = 'private')))
+					GROUP BY wp_posts.ID
+					ORDER BY wp_posts.post_title ASC
+					LIMIT 0, 10
+				
+[04-Jan-2024 18:53:21 UTC] Query Args: Array
+(
+    [post_type] => art
+    [posts_per_page] => 10
+    [order] => ASC
+    [orderby] => title
+    [tax_query] => Array
+        (
+            [0] => Array
+                (
+                    [taxonomy] => music
+                    [field] => slug
+                    [terms] => 
+                )
+
+        )
+
+)
+
+[04-Jan-2024 18:53:21 UTC] Query SQL: 
+					SELECT SQL_CALC_FOUND_ROWS  wp_posts.ID
+					FROM wp_posts 
+					WHERE 1=1  AND ( 
+  0 = 1
+) AND ((wp_posts.post_type = 'art' AND (wp_posts.post_status = 'publish' 
+OR wp_posts.post_status = 'private')))
+					GROUP BY wp_posts.ID
+					ORDER BY wp_posts.post_title ASC
+					LIMIT 0, 10
+				
+[04-Jan-2024 18:53:29 UTC] Query Args: Array
+(
+    [post_type] => art
+    [posts_per_page] => 10
+    [order] => ASC
+    [orderby] => title
+    [tax_query] => Array
+        (
+            [0] => Array
+                (
+                    [taxonomy] => music
+                    [field] => slug
+                    [terms] => 
+                )
+
+        )
+
+)
+
+[04-Jan-2024 18:53:29 UTC] Query SQL: 
+					SELECT SQL_CALC_FOUND_ROWS  wp_posts.ID
+					FROM wp_posts 
+					WHERE 1=1  AND ( 
+  0 = 1
+) AND ((wp_posts.post_type = 'art' AND (wp_posts.post_status = 'publish' 
+OR wp_posts.post_status = 'private')))
+					GROUP BY wp_posts.ID
+					ORDER BY wp_posts.post_title ASC
+					LIMIT 0, 10
+				
+[04-Jan-2024 18:53:30 UTC] Query Args: Array
+(
+    [post_type] => art
+    [posts_per_page] => 10
+    [order] => ASC
+    [orderby] => title
+    [tax_query] => Array
+        (
+            [0] => Array
+                (
+                    [taxonomy] => music
+                    [field] => slug
+                    [terms] => 
+                )
+
+        )
+
+)
+
+[04-Jan-2024 18:53:30 UTC] Query SQL: 
+					SELECT SQL_CALC_FOUND_ROWS  wp_posts.ID
+					FROM wp_posts 
+					WHERE 1=1  AND ( 
+  0 = 1
+) AND ((wp_posts.post_type = 'art' AND (wp_posts.post_status = 'publish' 
+OR wp_posts.post_status = 'private')))
+					GROUP BY wp_posts.ID
+					ORDER BY wp_posts.post_title ASC
+					LIMIT 0, 10
+				
+[04-Jan-2024 18:53:30 UTC] Query Args: Array
+(
+    [post_type] => art
+    [posts_per_page] => 10
+    [order] => ASC
+    [orderby] => title
+    [tax_query] => Array
+        (
+            [0] => Array
+                (
+                    [taxonomy] => music
+                    [field] => slug
+                    [terms] => 
+                )
+
+        )
+
+)
+
+[04-Jan-2024 18:53:30 UTC] Query SQL: 
+					SELECT SQL_CALC_FOUND_ROWS  wp_posts.ID
+					FROM wp_posts 
+					WHERE 1=1  AND ( 
+  0 = 1
+) AND ((wp_posts.post_type = 'art' AND (wp_posts.post_status = 'publish' 
+OR wp_posts.post_status = 'private')))
+					GROUP BY wp_posts.ID
+					ORDER BY wp_posts.post_title ASC
+					LIMIT 0, 10
+				
+[04-Jan-2024 18:53:31 UTC] Query Args: Array
+(
+    [post_type] => art
+    [posts_per_page] => 10
+    [order] => ASC
+    [orderby] => title
+    [tax_query] => Array
+        (
+            [0] => Array
+                (
+                    [taxonomy] => music
+                    [field] => slug
+                    [terms] => 
+                )
+
+        )
+
+)
+
+[04-Jan-2024 18:53:31 UTC] Query SQL: 
+					SELECT SQL_CALC_FOUND_ROWS  wp_posts.ID
+					FROM wp_posts 
+					WHERE 1=1  AND ( 
+  0 = 1
+) AND ((wp_posts.post_type = 'art' AND (wp_posts.post_status = 'publish' 
+OR wp_posts.post_status = 'private')))
+					GROUP BY wp_posts.ID
+					ORDER BY wp_posts.post_title ASC
+					LIMIT 0, 10
+				
+[04-Jan-2024 18:53:31 UTC] Query Args: Array
+(
+    [post_type] => art
+    [posts_per_page] => 10
+    [order] => ASC
+    [orderby] => title
+    [tax_query] => Array
+        (
+            [0] => Array
+                (
+                    [taxonomy] => music
+                    [field] => slug
+                    [terms] => 
+                )
+
+        )
+
+)
+
+[04-Jan-2024 18:53:31 UTC] Query SQL: 
+					SELECT SQL_CALC_FOUND_ROWS  wp_posts.ID
+					FROM wp_posts 
+					WHERE 1=1  AND ( 
+  0 = 1
+) AND ((wp_posts.post_type = 'art' AND (wp_posts.post_status = 'publish' 
+OR wp_posts.post_status = 'private')))
+					GROUP BY wp_posts.ID
+					ORDER BY wp_posts.post_title ASC
+					LIMIT 0, 10
+				
+[04-Jan-2024 19:04:13 UTC] Query Args: Array
+(
+    [post_type] => art
+    [posts_per_page] => 10
+    [order] => ASC
+    [orderby] => title
+    [tax_query] => Array
+        (
+            [0] => Array
+                (
+                    [taxonomy] => music
+                    [field] => slug
+                    [terms] => 
+                )
+
+        )
+
+)
+
+[04-Jan-2024 19:04:13 UTC] Query SQL: 
+					SELECT SQL_CALC_FOUND_ROWS  wp_posts.ID
+					FROM wp_posts 
+					WHERE 1=1  AND ( 
+  0 = 1
+) AND ((wp_posts.post_type = 'art' AND (wp_posts.post_status = 'publish' 
+OR wp_posts.post_status = 'private')))
+					GROUP BY wp_posts.ID
+					ORDER BY wp_posts.post_title ASC
+					LIMIT 0, 10
+				
+[04-Jan-2024 19:12:47 UTC] PHP Warning:  Undefined array key "terms" in /var/www/testwp2/wp-content/themes/quotesin/app/Shortcodes.php on line 17
+[04-Jan-2024 19:12:48 UTC] PHP Warning:  Undefined array key "terms" in /var/www/testwp2/wp-content/themes/quotesin/app/Shortcodes.php on line 17
+[04-Jan-2024 19:12:48 UTC] PHP Warning:  Undefined array key "terms" in /var/www/testwp2/wp-content/themes/quotesin/app/Shortcodes.php on line 17
+[04-Jan-2024 19:14:19 UTC] PHP Warning:  Undefined array key "terms" in /var/www/testwp2/wp-content/themes/quotesin/app/Shortcodes.php on line 17
+[04-Jan-2024 19:14:20 UTC] PHP Warning:  Undefined array key "terms" in /var/www/testwp2/wp-content/themes/quotesin/app/Shortcodes.php on line 17
+[04-Jan-2024 19:14:43 UTC] PHP Warning:  Undefined array key "terms" in /var/www/testwp2/wp-content/themes/quotesin/app/Shortcodes.php on line 17
+[04-Jan-2024 19:16:58 UTC] PHP Warning:  Undefined array key "terms" in /var/www/testwp2/wp-content/themes/quotesin/app/Shortcodes.php on line 17
+[04-Jan-2024 19:17:33 UTC] PHP Warning:  Undefined array key "terms" in /var/www/testwp2/wp-content/themes/quotesin/app/Shortcodes.php on line 17
+[04-Jan-2024 19:17:57 UTC] PHP Warning:  Undefined array key "terms" in /var/www/testwp2/wp-content/themes/quotesin/app/Shortcodes.php on line 17
+[04-Jan-2024 19:17:58 UTC] PHP Warning:  Undefined array key "terms" in /var/www/testwp2/wp-content/themes/quotesin/app/Shortcodes.php on line 17
+[04-Jan-2024 19:17:59 UTC] PHP Warning:  Undefined array key "terms" in /var/www/testwp2/wp-content/themes/quotesin/app/Shortcodes.php on line 17
+[04-Jan-2024 19:17:59 UTC] PHP Warning:  Undefined array key "terms" in /var/www/testwp2/wp-content/themes/quotesin/app/Shortcodes.php on line 17
+[04-Jan-2024 19:19:02 UTC] PHP Warning:  Undefined array key "terms" in /var/www/testwp2/wp-content/themes/quotesin/app/Shortcodes.php on line 17
+[04-Jan-2024 19:19:02 UTC] PHP Deprecated:  explode(): Passing null to parameter #2 ($string) of type string is deprecated in /var/www/testwp2/wp-content/themes/quotesin/app/Shortcodes.php on line 35
+[04-Jan-2024 19:19:19 UTC] PHP Warning:  Undefined array key "terms" in /var/www/testwp2/wp-content/themes/quotesin/app/Shortcodes.php on line 17
+[04-Jan-2024 19:19:19 UTC] PHP Deprecated:  explode(): Passing null to parameter #2 ($string) of type string is deprecated in /var/www/testwp2/wp-content/themes/quotesin/app/Shortcodes.php on line 35
+[04-Jan-2024 19:20:30 UTC] PHP Warning:  Undefined array key "terms" in /var/www/testwp2/wp-content/themes/quotesin/app/Shortcodes.php on line 17
+[04-Jan-2024 19:20:32 UTC] PHP Warning:  Undefined array key "terms" in /var/www/testwp2/wp-content/themes/quotesin/app/Shortcodes.php on line 17
+[04-Jan-2024 19:20:33 UTC] PHP Warning:  Undefined array key "terms" in /var/www/testwp2/wp-content/themes/quotesin/app/Shortcodes.php on line 17
+[04-Jan-2024 19:20:34 UTC] PHP Warning:  Undefined array key "terms" in /var/www/testwp2/wp-content/themes/quotesin/app/Shortcodes.php on line 17
+[04-Jan-2024 19:20:35 UTC] PHP Warning:  Undefined array key "terms" in /var/www/testwp2/wp-content/themes/quotesin/app/Shortcodes.php on line 17
+[04-Jan-2024 19:21:39 UTC] PHP Warning:  Undefined array key "terms" in /var/www/testwp2/wp-content/themes/quotesin/app/Shortcodes.php on line 17
+[04-Jan-2024 19:21:40 UTC] PHP Warning:  Undefined array key "terms" in /var/www/testwp2/wp-content/themes/quotesin/app/Shortcodes.php on line 17
+[04-Jan-2024 19:21:40 UTC] PHP Warning:  Undefined array key "terms" in /var/www/testwp2/wp-content/themes/quotesin/app/Shortcodes.php on line 17
+[04-Jan-2024 19:21:40 UTC] PHP Warning:  Undefined array key "terms" in /var/www/testwp2/wp-content/themes/quotesin/app/Shortcodes.php on line 17
+[04-Jan-2024 19:21:47 UTC] PHP Warning:  Undefined array key "terms" in /var/www/testwp2/wp-content/themes/quotesin/app/Shortcodes.php on line 17
+[04-Jan-2024 19:21:48 UTC] PHP Warning:  Undefined array key "terms" in /var/www/testwp2/wp-content/themes/quotesin/app/Shortcodes.php on line 17
+[04-Jan-2024 19:21:48 UTC] PHP Warning:  Undefined array key "terms" in /var/www/testwp2/wp-content/themes/quotesin/app/Shortcodes.php on line 17
+[04-Jan-2024 19:21:49 UTC] PHP Warning:  Undefined array key "terms" in /var/www/testwp2/wp-content/themes/quotesin/app/Shortcodes.php on line 17
+[04-Jan-2024 19:21:55 UTC] PHP Warning:  Undefined array key "terms" in /var/www/testwp2/wp-content/themes/quotesin/app/Shortcodes.php on line 17
+[04-Jan-2024 19:21:56 UTC] PHP Warning:  Undefined array key "terms" in /var/www/testwp2/wp-content/themes/quotesin/app/Shortcodes.php on line 17
+[04-Jan-2024 19:22:04 UTC] PHP Warning:  Undefined array key "terms" in /var/www/testwp2/wp-content/themes/quotesin/app/Shortcodes.php on line 17
+[04-Jan-2024 19:22:05 UTC] PHP Warning:  Undefined array key "terms" in /var/www/testwp2/wp-content/themes/quotesin/app/Shortcodes.php on line 17
+[04-Jan-2024 19:22:05 UTC] PHP Warning:  Undefined array key "terms" in /var/www/testwp2/wp-content/themes/quotesin/app/Shortcodes.php on line 17
+[04-Jan-2024 19:22:12 UTC] PHP Warning:  Undefined array key "terms" in /var/www/testwp2/wp-content/themes/quotesin/app/Shortcodes.php on line 17
+[04-Jan-2024 19:22:20 UTC] PHP Warning:  Undefined array key "terms" in /var/www/testwp2/wp-content/themes/quotesin/app/Shortcodes.php on line 17
+[04-Jan-2024 19:23:33 UTC] PHP Warning:  Undefined array key "terms" in /var/www/testwp2/wp-content/themes/quotesin/app/Shortcodes.php on line 17
+[04-Jan-2024 19:23:34 UTC] PHP Warning:  Undefined array key "terms" in /var/www/testwp2/wp-content/themes/quotesin/app/Shortcodes.php on line 17
+[04-Jan-2024 19:23:35 UTC] PHP Warning:  Undefined array key "terms" in /var/www/testwp2/wp-content/themes/quotesin/app/Shortcodes.php on line 17
+[04-Jan-2024 19:23:35 UTC] PHP Warning:  Undefined array key "terms" in /var/www/testwp2/wp-content/themes/quotesin/app/Shortcodes.php on line 17
+[04-Jan-2024 19:23:35 UTC] PHP Warning:  Undefined array key "terms" in /var/www/testwp2/wp-content/themes/quotesin/app/Shortcodes.php on line 17
+[04-Jan-2024 19:23:35 UTC] PHP Warning:  Undefined array key "terms" in /var/www/testwp2/wp-content/themes/quotesin/app/Shortcodes.php on line 17
+[04-Jan-2024 19:23:36 UTC] PHP Warning:  Undefined array key "terms" in /var/www/testwp2/wp-content/themes/quotesin/app/Shortcodes.php on line 17
+[04-Jan-2024 19:23:36 UTC] PHP Warning:  Undefined array key "terms" in /var/www/testwp2/wp-content/themes/quotesin/app/Shortcodes.php on line 17
+[04-Jan-2024 19:23:36 UTC] PHP Warning:  Undefined array key "terms" in /var/www/testwp2/wp-content/themes/quotesin/app/Shortcodes.php on line 17
+[04-Jan-2024 19:23:36 UTC] PHP Warning:  Undefined array key "terms" in /var/www/testwp2/wp-content/themes/quotesin/app/Shortcodes.php on line 17
+[04-Jan-2024 19:23:37 UTC] PHP Warning:  Undefined array key "terms" in /var/www/testwp2/wp-content/themes/quotesin/app/Shortcodes.php on line 17
+[04-Jan-2024 19:25:09 UTC] PHP Warning:  Undefined array key "terms" in /var/www/testwp2/wp-content/themes/quotesin/app/Shortcodes.php on line 17
+[04-Jan-2024 19:25:10 UTC] PHP Warning:  Undefined array key "terms" in /var/www/testwp2/wp-content/themes/quotesin/app/Shortcodes.php on line 17
+[04-Jan-2024 19:25:10 UTC] PHP Warning:  Undefined array key "terms" in /var/www/testwp2/wp-content/themes/quotesin/app/Shortcodes.php on line 17
+[04-Jan-2024 19:27:05 UTC] PHP Warning:  Undefined array key "terms" in /var/www/testwp2/wp-content/themes/quotesin/app/Shortcodes.php on line 17
+[04-Jan-2024 19:27:06 UTC] PHP Warning:  Undefined array key "terms" in /var/www/testwp2/wp-content/themes/quotesin/app/Shortcodes.php on line 17
+[04-Jan-2024 19:30:03 UTC] PHP Warning:  Undefined array key "terms" in /var/www/testwp2/wp-content/themes/quotesin/app/Shortcodes.php on line 20
+[04-Jan-2024 19:30:04 UTC] PHP Warning:  Undefined array key "terms" in /var/www/testwp2/wp-content/themes/quotesin/app/Shortcodes.php on line 20
+[04-Jan-2024 19:30:04 UTC] PHP Warning:  Undefined array key "terms" in /var/www/testwp2/wp-content/themes/quotesin/app/Shortcodes.php on line 20
+[04-Jan-2024 19:30:04 UTC] PHP Warning:  Undefined array key "terms" in /var/www/testwp2/wp-content/themes/quotesin/app/Shortcodes.php on line 20
+[04-Jan-2024 19:30:25 UTC] PHP Warning:  Undefined array key "terms" in /var/www/testwp2/wp-content/themes/quotesin/app/Shortcodes.php on line 20
+[04-Jan-2024 19:31:11 UTC] PHP Warning:  Undefined array key "terms" in /var/www/testwp2/wp-content/themes/quotesin/app/Shortcodes.php on line 20
+[04-Jan-2024 19:31:12 UTC] PHP Warning:  Undefined array key "terms" in /var/www/testwp2/wp-content/themes/quotesin/app/Shortcodes.php on line 20
+[04-Jan-2024 19:38:15 UTC] PHP Warning:  Undefined array key "terms" in /var/www/testwp2/wp-content/themes/quotesin/app/Shortcodes.php on line 20
+[04-Jan-2024 19:38:16 UTC] PHP Warning:  Undefined array key "terms" in /var/www/testwp2/wp-content/themes/quotesin/app/Shortcodes.php on line 20
+[04-Jan-2024 19:38:35 UTC] PHP Warning:  Undefined array key "terms" in /var/www/testwp2/wp-content/themes/quotesin/app/Shortcodes.php on line 20
+[04-Jan-2024 19:38:36 UTC] PHP Warning:  Undefined array key "terms" in /var/www/testwp2/wp-content/themes/quotesin/app/Shortcodes.php on line 20
+[04-Jan-2024 19:38:36 UTC] PHP Warning:  Undefined array key "terms" in /var/www/testwp2/wp-content/themes/quotesin/app/Shortcodes.php on line 20
+[04-Jan-2024 19:38:37 UTC] PHP Warning:  Undefined array key "terms" in /var/www/testwp2/wp-content/themes/quotesin/app/Shortcodes.php on line 20
+[04-Jan-2024 19:38:37 UTC] PHP Warning:  Undefined array key "terms" in /var/www/testwp2/wp-content/themes/quotesin/app/Shortcodes.php on line 20
+[04-Jan-2024 19:38:38 UTC] PHP Warning:  Undefined array key "terms" in /var/www/testwp2/wp-content/themes/quotesin/app/Shortcodes.php on line 20
+[04-Jan-2024 19:38:38 UTC] PHP Warning:  Undefined array key "terms" in /var/www/testwp2/wp-content/themes/quotesin/app/Shortcodes.php on line 20
+[04-Jan-2024 19:38:47 UTC] PHP Warning:  Undefined array key "terms" in /var/www/testwp2/wp-content/themes/quotesin/app/Shortcodes.php on line 20
+[04-Jan-2024 19:38:59 UTC] PHP Warning:  Undefined array key "terms" in /var/www/testwp2/wp-content/themes/quotesin/app/Shortcodes.php on line 20
+[04-Jan-2024 19:39:00 UTC] PHP Warning:  Undefined array key "terms" in /var/www/testwp2/wp-content/themes/quotesin/app/Shortcodes.php on line 20
+[04-Jan-2024 19:39:01 UTC] PHP Warning:  Undefined array key "terms" in /var/www/testwp2/wp-content/themes/quotesin/app/Shortcodes.php on line 20
+[04-Jan-2024 19:39:01 UTC] PHP Warning:  Undefined array key "terms" in /var/www/testwp2/wp-content/themes/quotesin/app/Shortcodes.php on line 20
+[04-Jan-2024 19:39:01 UTC] PHP Warning:  Undefined array key "terms" in /var/www/testwp2/wp-content/themes/quotesin/app/Shortcodes.php on line 20
+[04-Jan-2024 19:39:02 UTC] PHP Warning:  Undefined array key "terms" in /var/www/testwp2/wp-content/themes/quotesin/app/Shortcodes.php on line 20
+[04-Jan-2024 19:39:21 UTC] PHP Warning:  Undefined array key "terms" in /var/www/testwp2/wp-content/themes/quotesin/app/Shortcodes.php on line 20
+[04-Jan-2024 19:39:22 UTC] PHP Warning:  Undefined array key "terms" in /var/www/testwp2/wp-content/themes/quotesin/app/Shortcodes.php on line 20
+[04-Jan-2024 19:39:22 UTC] PHP Warning:  Undefined array key "terms" in /var/www/testwp2/wp-content/themes/quotesin/app/Shortcodes.php on line 20
+[04-Jan-2024 19:41:45 UTC] PHP Warning:  Undefined array key "terms" in /var/www/testwp2/wp-content/themes/quotesin/app/Shortcodes.php on line 20
+[04-Jan-2024 19:42:27 UTC] PHP Warning:  Undefined array key "terms" in /var/www/testwp2/wp-content/themes/quotesin/app/Shortcodes.php on line 20
+[04-Jan-2024 19:48:13 UTC] PHP Warning:  Undefined array key "terms" in /var/www/testwp2/wp-content/themes/quotesin/app/Shortcodes.php on line 20
+[04-Jan-2024 19:48:58 UTC] PHP Warning:  Undefined array key "terms" in /var/www/testwp2/wp-content/themes/quotesin/app/Shortcodes.php on line 20
+[04-Jan-2024 19:48:59 UTC] PHP Warning:  Undefined array key "terms" in /var/www/testwp2/wp-content/themes/quotesin/app/Shortcodes.php on line 20
+[04-Jan-2024 19:49:59 UTC] PHP Warning:  Undefined array key "terms" in /var/www/testwp2/wp-content/themes/quotesin/app/Shortcodes.php on line 20
+[04-Jan-2024 19:50:00 UTC] PHP Warning:  Undefined array key "terms" in /var/www/testwp2/wp-content/themes/quotesin/app/Shortcodes.php on line 20
+[04-Jan-2024 19:50:08 UTC] PHP Warning:  Undefined array key "terms" in /var/www/testwp2/wp-content/themes/quotesin/app/Shortcodes.php on line 20
+[04-Jan-2024 19:50:09 UTC] PHP Warning:  Undefined array key "terms" in /var/www/testwp2/wp-content/themes/quotesin/app/Shortcodes.php on line 20
+[04-Jan-2024 20:47:37 UTC] PHP Warning:  Undefined array key "terms" in /var/www/testwp2/wp-content/themes/quotesin/app/Shortcodes.php on line 20
+[04-Jan-2024 20:47:50 UTC] PHP Warning:  Undefined array key "terms" in /var/www/testwp2/wp-content/themes/quotesin/app/Shortcodes.php on line 20
+[04-Jan-2024 20:48:00 UTC] PHP Warning:  Undefined array key "terms" in /var/www/testwp2/wp-content/themes/quotesin/app/Shortcodes.php on line 20
+[04-Jan-2024 20:48:09 UTC] PHP Warning:  Undefined array key "terms" in /var/www/testwp2/wp-content/themes/quotesin/app/Shortcodes.php on line 20
+[04-Jan-2024 20:48:09 UTC] PHP Fatal error:  Uncaught ArgumentCountError: Too few arguments to function get_template_part(), 0 passed in /var/www/testwp2/wp-content/themes/quotesin/app/Shortcodes.php on line 62 and at least 1 expected in /var/www/testwp2/wp-includes/general-template.php:167
+Stack trace:
+#0 /var/www/testwp2/wp-content/themes/quotesin/app/Shortcodes.php(62): get_template_part()
+#1 /var/www/testwp2/wp-includes/shortcodes.php(433): Quotesin\Shortcodes->art_posts_shortcode()
+#2 [internal function]: do_shortcode_tag()
+#3 /var/www/testwp2/wp-includes/shortcodes.php(273): preg_replace_callback()
+#4 /var/www/testwp2/wp-content/themes/quotesin/archive-art.php(27): do_shortcode()
+#5 /var/www/testwp2/wp-includes/template-loader.php(106): include('...')
+#6 /var/www/testwp2/wp-blog-header.php(19): require_once('...')
+#7 /var/www/testwp2/index.php(17): require('...')
+#8 {main}
+  thrown in /var/www/testwp2/wp-includes/general-template.php on line 167
+[04-Jan-2024 20:48:18 UTC] PHP Warning:  Undefined array key "terms" in /var/www/testwp2/wp-content/themes/quotesin/app/Shortcodes.php on line 20
+[04-Jan-2024 20:48:18 UTC] PHP Fatal error:  Uncaught ArgumentCountError: Too few arguments to function get_template_part(), 0 passed in /var/www/testwp2/wp-content/themes/quotesin/app/Shortcodes.php on line 62 and at least 1 expected in /var/www/testwp2/wp-includes/general-template.php:167
+Stack trace:
+#0 /var/www/testwp2/wp-content/themes/quotesin/app/Shortcodes.php(62): get_template_part()
+#1 /var/www/testwp2/wp-includes/shortcodes.php(433): Quotesin\Shortcodes->art_posts_shortcode()
+#2 [internal function]: do_shortcode_tag()
+#3 /var/www/testwp2/wp-includes/shortcodes.php(273): preg_replace_callback()
+#4 /var/www/testwp2/wp-content/themes/quotesin/archive-art.php(27): do_shortcode()
+#5 /var/www/testwp2/wp-includes/template-loader.php(106): include('...')
+#6 /var/www/testwp2/wp-blog-header.php(19): require_once('...')
+#7 /var/www/testwp2/index.php(17): require('...')
+#8 {main}
+  thrown in /var/www/testwp2/wp-includes/general-template.php on line 167
+[04-Jan-2024 20:48:32 UTC] PHP Warning:  Undefined array key "terms" in /var/www/testwp2/wp-content/themes/quotesin/app/Shortcodes.php on line 20
+[04-Jan-2024 20:48:33 UTC] PHP Warning:  Undefined array key "terms" in /var/www/testwp2/wp-content/themes/quotesin/app/Shortcodes.php on line 20
+[04-Jan-2024 20:48:37 UTC] PHP Warning:  Undefined array key "terms" in /var/www/testwp2/wp-content/themes/quotesin/app/Shortcodes.php on line 20
+[04-Jan-2024 20:48:38 UTC] PHP Warning:  Undefined array key "terms" in /var/www/testwp2/wp-content/themes/quotesin/app/Shortcodes.php on line 20
+[04-Jan-2024 20:48:48 UTC] PHP Warning:  Undefined array key "terms" in /var/www/testwp2/wp-content/themes/quotesin/app/Shortcodes.php on line 20
+[04-Jan-2024 20:58:29 UTC] PHP Warning:  Undefined array key "terms" in /var/www/testwp2/wp-content/themes/quotesin/app/Shortcodes.php on line 20
+[04-Jan-2024 20:58:31 UTC] PHP Warning:  Undefined array key "terms" in /var/www/testwp2/wp-content/themes/quotesin/app/Shortcodes.php on line 20
+[04-Jan-2024 20:58:34 UTC] PHP Warning:  Undefined array key "terms" in /var/www/testwp2/wp-content/themes/quotesin/app/Shortcodes.php on line 20
+[04-Jan-2024 20:58:36 UTC] PHP Warning:  Undefined array key "terms" in /var/www/testwp2/wp-content/themes/quotesin/app/Shortcodes.php on line 20
+[04-Jan-2024 20:58:38 UTC] PHP Warning:  Undefined array key "terms" in /var/www/testwp2/wp-content/themes/quotesin/app/Shortcodes.php on line 20
+[04-Jan-2024 20:58:39 UTC] PHP Warning:  Undefined array key "terms" in /var/www/testwp2/wp-content/themes/quotesin/app/Shortcodes.php on line 20
+[04-Jan-2024 20:58:41 UTC] PHP Warning:  Undefined array key "terms" in /var/www/testwp2/wp-content/themes/quotesin/app/Shortcodes.php on line 20
+[04-Jan-2024 20:58:42 UTC] PHP Warning:  Undefined array key "terms" in /var/www/testwp2/wp-content/themes/quotesin/app/Shortcodes.php on line 20
+[04-Jan-2024 20:58:43 UTC] PHP Warning:  Undefined array key "terms" in /var/www/testwp2/wp-content/themes/quotesin/app/Shortcodes.php on line 20
+[04-Jan-2024 20:59:07 UTC] PHP Warning:  Undefined array key "terms" in /var/www/testwp2/wp-content/themes/quotesin/app/Shortcodes.php on line 20
+[04-Jan-2024 20:59:08 UTC] PHP Warning:  Undefined array key "terms" in /var/www/testwp2/wp-content/themes/quotesin/app/Shortcodes.php on line 20
+[04-Jan-2024 20:59:16 UTC] PHP Warning:  Undefined array key "terms" in /var/www/testwp2/wp-content/themes/quotesin/app/Shortcodes.php on line 20
+[04-Jan-2024 20:59:54 UTC] PHP Parse error:  syntax error, unexpected token "<", expecting "elseif" or "else" or "endif" in /var/www/testwp2/wp-content/themes/quotesin/archive-art.php on line 31
+[04-Jan-2024 21:00:01 UTC] PHP Warning:  Undefined array key "terms" in /var/www/testwp2/wp-content/themes/quotesin/app/Shortcodes.php on line 20
+[04-Jan-2024 21:00:55 UTC] PHP Warning:  Undefined array key "terms" in /var/www/testwp2/wp-content/themes/quotesin/app/Shortcodes.php on line 20
+[04-Jan-2024 21:01:58 UTC] PHP Warning:  Undefined array key "terms" in /var/www/testwp2/wp-content/themes/quotesin/app/Shortcodes.php on line 20
+[04-Jan-2024 21:03:57 UTC] PHP Warning:  Undefined array key "terms" in /var/www/testwp2/wp-content/themes/quotesin/app/Shortcodes.php on line 20
+[04-Jan-2024 21:07:17 UTC] PHP Warning:  Undefined array key "terms" in /var/www/testwp2/wp-content/themes/quotesin/app/Shortcodes.php on line 20
+[04-Jan-2024 21:07:18 UTC] PHP Warning:  Undefined array key "terms" in /var/www/testwp2/wp-content/themes/quotesin/app/Shortcodes.php on line 20
+[04-Jan-2024 21:07:33 UTC] PHP Warning:  Undefined array key "terms" in /var/www/testwp2/wp-content/themes/quotesin/app/Shortcodes.php on line 20
+[04-Jan-2024 21:07:35 UTC] PHP Warning:  Undefined array key "terms" in /var/www/testwp2/wp-content/themes/quotesin/app/Shortcodes.php on line 20
+[04-Jan-2024 21:07:52 UTC] PHP Warning:  Undefined array key "terms" in /var/www/testwp2/wp-content/themes/quotesin/app/Shortcodes.php on line 20
+[04-Jan-2024 21:08:21 UTC] PHP Warning:  Undefined array key "terms" in /var/www/testwp2/wp-content/themes/quotesin/app/Shortcodes.php on line 20
+[04-Jan-2024 21:08:35 UTC] PHP Warning:  Undefined array key "terms" in /var/www/testwp2/wp-content/themes/quotesin/app/Shortcodes.php on line 20
+[04-Jan-2024 21:08:35 UTC] PHP Fatal error:  Uncaught ArgumentCountError: Too few arguments to function the_terms(), 1 passed in /var/www/testwp2/wp-content/themes/quotesin/template-parts/content-art.php on line 18 and at least 2 expected in /var/www/testwp2/wp-includes/category-template.php:1457
+Stack trace:
+#0 /var/www/testwp2/wp-content/themes/quotesin/template-parts/content-art.php(18): the_terms()
+#1 /var/www/testwp2/wp-includes/template.php(792): require('...')
+#2 /var/www/testwp2/wp-includes/template.php(725): load_template()
+#3 /var/www/testwp2/wp-includes/general-template.php(206): locate_template()
+#4 /var/www/testwp2/wp-content/themes/quotesin/app/Shortcodes.php(61): get_template_part()
+#5 /var/www/testwp2/wp-includes/shortcodes.php(433): Quotesin\Shortcodes->art_posts_shortcode()
+#6 [internal function]: do_shortcode_tag()
+#7 /var/www/testwp2/wp-includes/shortcodes.php(273): preg_replace_callback()
+#8 /var/www/testwp2/wp-content/themes/quotesin/archive-art.php(25): do_shortcode()
+#9 /var/www/testwp2/wp-includes/template-loader.php(106): include('...')
+#10 /var/www/testwp2/wp-blog-header.php(19): require_once('...')
+#11 /var/www/testwp2/index.php(17): require('...')
+#12 {main}
+  thrown in /var/www/testwp2/wp-includes/category-template.php on line 1457
+[04-Jan-2024 21:08:36 UTC] PHP Warning:  Undefined array key "terms" in /var/www/testwp2/wp-content/themes/quotesin/app/Shortcodes.php on line 20
+[04-Jan-2024 21:08:36 UTC] PHP Fatal error:  Uncaught ArgumentCountError: Too few arguments to function the_terms(), 1 passed in /var/www/testwp2/wp-content/themes/quotesin/template-parts/content-art.php on line 18 and at least 2 expected in /var/www/testwp2/wp-includes/category-template.php:1457
+Stack trace:
+#0 /var/www/testwp2/wp-content/themes/quotesin/template-parts/content-art.php(18): the_terms()
+#1 /var/www/testwp2/wp-includes/template.php(792): require('...')
+#2 /var/www/testwp2/wp-includes/template.php(725): load_template()
+#3 /var/www/testwp2/wp-includes/general-template.php(206): locate_template()
+#4 /var/www/testwp2/wp-content/themes/quotesin/app/Shortcodes.php(61): get_template_part()
+#5 /var/www/testwp2/wp-includes/shortcodes.php(433): Quotesin\Shortcodes->art_posts_shortcode()
+#6 [internal function]: do_shortcode_tag()
+#7 /var/www/testwp2/wp-includes/shortcodes.php(273): preg_replace_callback()
+#8 /var/www/testwp2/wp-content/themes/quotesin/archive-art.php(25): do_shortcode()
+#9 /var/www/testwp2/wp-includes/template-loader.php(106): include('...')
+#10 /var/www/testwp2/wp-blog-header.php(19): require_once('...')
+#11 /var/www/testwp2/index.php(17): require('...')
+#12 {main}
+  thrown in /var/www/testwp2/wp-includes/category-template.php on line 1457
+[04-Jan-2024 21:08:43 UTC] PHP Warning:  Undefined array key "terms" in /var/www/testwp2/wp-content/themes/quotesin/app/Shortcodes.php on line 20
+[04-Jan-2024 21:08:43 UTC] PHP Fatal error:  Uncaught ArgumentCountError: Too few arguments to function the_terms(), 0 passed in /var/www/testwp2/wp-content/themes/quotesin/template-parts/content-art.php on line 18 and at least 2 expected in /var/www/testwp2/wp-includes/category-template.php:1457
+Stack trace:
+#0 /var/www/testwp2/wp-content/themes/quotesin/template-parts/content-art.php(18): the_terms()
+#1 /var/www/testwp2/wp-includes/template.php(792): require('...')
+#2 /var/www/testwp2/wp-includes/template.php(725): load_template()
+#3 /var/www/testwp2/wp-includes/general-template.php(206): locate_template()
+#4 /var/www/testwp2/wp-content/themes/quotesin/app/Shortcodes.php(61): get_template_part()
+#5 /var/www/testwp2/wp-includes/shortcodes.php(433): Quotesin\Shortcodes->art_posts_shortcode()
+#6 [internal function]: do_shortcode_tag()
+#7 /var/www/testwp2/wp-includes/shortcodes.php(273): preg_replace_callback()
+#8 /var/www/testwp2/wp-content/themes/quotesin/archive-art.php(25): do_shortcode()
+#9 /var/www/testwp2/wp-includes/template-loader.php(106): include('...')
+#10 /var/www/testwp2/wp-blog-header.php(19): require_once('...')
+#11 /var/www/testwp2/index.php(17): require('...')
+#12 {main}
+  thrown in /var/www/testwp2/wp-includes/category-template.php on line 1457
+[04-Jan-2024 21:08:54 UTC] PHP Warning:  Undefined array key "terms" in /var/www/testwp2/wp-content/themes/quotesin/app/Shortcodes.php on line 20
+[04-Jan-2024 21:08:54 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function the_term() in /var/www/testwp2/wp-content/themes/quotesin/template-parts/content-art.php:17
+Stack trace:
+#0 /var/www/testwp2/wp-includes/template.php(792): require()
+#1 /var/www/testwp2/wp-includes/template.php(725): load_template()
+#2 /var/www/testwp2/wp-includes/general-template.php(206): locate_template()
+#3 /var/www/testwp2/wp-content/themes/quotesin/app/Shortcodes.php(61): get_template_part()
+#4 /var/www/testwp2/wp-includes/shortcodes.php(433): Quotesin\Shortcodes->art_posts_shortcode()
+#5 [internal function]: do_shortcode_tag()
+#6 /var/www/testwp2/wp-includes/shortcodes.php(273): preg_replace_callback()
+#7 /var/www/testwp2/wp-content/themes/quotesin/archive-art.php(25): do_shortcode()
+#8 /var/www/testwp2/wp-includes/template-loader.php(106): include('...')
+#9 /var/www/testwp2/wp-blog-header.php(19): require_once('...')
+#10 /var/www/testwp2/index.php(17): require('...')
+#11 {main}
+  thrown in /var/www/testwp2/wp-content/themes/quotesin/template-parts/content-art.php on line 17
+[04-Jan-2024 21:08:55 UTC] PHP Warning:  Undefined array key "terms" in /var/www/testwp2/wp-content/themes/quotesin/app/Shortcodes.php on line 20
+[04-Jan-2024 21:08:55 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function the_term() in /var/www/testwp2/wp-content/themes/quotesin/template-parts/content-art.php:17
+Stack trace:
+#0 /var/www/testwp2/wp-includes/template.php(792): require()
+#1 /var/www/testwp2/wp-includes/template.php(725): load_template()
+#2 /var/www/testwp2/wp-includes/general-template.php(206): locate_template()
+#3 /var/www/testwp2/wp-content/themes/quotesin/app/Shortcodes.php(61): get_template_part()
+#4 /var/www/testwp2/wp-includes/shortcodes.php(433): Quotesin\Shortcodes->art_posts_shortcode()
+#5 [internal function]: do_shortcode_tag()
+#6 /var/www/testwp2/wp-includes/shortcodes.php(273): preg_replace_callback()
+#7 /var/www/testwp2/wp-content/themes/quotesin/archive-art.php(25): do_shortcode()
+#8 /var/www/testwp2/wp-includes/template-loader.php(106): include('...')
+#9 /var/www/testwp2/wp-blog-header.php(19): require_once('...')
+#10 /var/www/testwp2/index.php(17): require('...')
+#11 {main}
+  thrown in /var/www/testwp2/wp-content/themes/quotesin/template-parts/content-art.php on line 17
+[04-Jan-2024 21:09:40 UTC] PHP Warning:  Undefined array key "terms" in /var/www/testwp2/wp-content/themes/quotesin/app/Shortcodes.php on line 20
+[04-Jan-2024 21:09:59 UTC] PHP Warning:  Undefined array key "terms" in /var/www/testwp2/wp-content/themes/quotesin/app/Shortcodes.php on line 20
+[04-Jan-2024 21:10:35 UTC] PHP Warning:  Undefined array key "terms" in /var/www/testwp2/wp-content/themes/quotesin/app/Shortcodes.php on line 20
+[04-Jan-2024 21:10:36 UTC] PHP Warning:  Undefined array key "terms" in /var/www/testwp2/wp-content/themes/quotesin/app/Shortcodes.php on line 20
+[04-Jan-2024 21:10:47 UTC] PHP Warning:  Undefined array key "terms" in /var/www/testwp2/wp-content/themes/quotesin/app/Shortcodes.php on line 20
+[04-Jan-2024 21:10:49 UTC] PHP Warning:  Undefined array key "terms" in /var/www/testwp2/wp-content/themes/quotesin/app/Shortcodes.php on line 20
+[04-Jan-2024 21:10:56 UTC] PHP Warning:  Undefined array key "terms" in /var/www/testwp2/wp-content/themes/quotesin/app/Shortcodes.php on line 20
+[04-Jan-2024 21:11:13 UTC] PHP Warning:  Undefined array key "terms" in /var/www/testwp2/wp-content/themes/quotesin/app/Shortcodes.php on line 20
+[04-Jan-2024 21:11:26 UTC] PHP Warning:  Undefined array key "terms" in /var/www/testwp2/wp-content/themes/quotesin/app/Shortcodes.php on line 20
+[04-Jan-2024 21:12:08 UTC] PHP Warning:  Undefined array key "terms" in /var/www/testwp2/wp-content/themes/quotesin/app/Shortcodes.php on line 20
+[04-Jan-2024 21:12:09 UTC] PHP Warning:  Undefined array key "terms" in /var/www/testwp2/wp-content/themes/quotesin/app/Shortcodes.php on line 20
+[04-Jan-2024 21:12:39 UTC] PHP Warning:  Undefined array key "terms" in /var/www/testwp2/wp-content/themes/quotesin/app/Shortcodes.php on line 20
+[04-Jan-2024 21:12:50 UTC] PHP Warning:  Undefined array key "terms" in /var/www/testwp2/wp-content/themes/quotesin/app/Shortcodes.php on line 20
+[04-Jan-2024 21:12:50 UTC] PHP Warning:  Undefined variable $argc in /var/www/testwp2/wp-content/themes/quotesin/template-parts/content-art.php on line 9
+[04-Jan-2024 21:12:50 UTC] PHP Warning:  Undefined variable $argc in /var/www/testwp2/wp-content/themes/quotesin/template-parts/content-art.php on line 9
+[04-Jan-2024 21:12:50 UTC] PHP Warning:  Undefined variable $argc in /var/www/testwp2/wp-content/themes/quotesin/template-parts/content-art.php on line 9
+[04-Jan-2024 21:12:50 UTC] PHP Warning:  Undefined variable $argc in /var/www/testwp2/wp-content/themes/quotesin/template-parts/content-art.php on line 9
+[04-Jan-2024 21:12:50 UTC] PHP Warning:  Undefined variable $argc in /var/www/testwp2/wp-content/themes/quotesin/template-parts/content-art.php on line 9
+[04-Jan-2024 21:12:50 UTC] PHP Warning:  Undefined variable $argc in /var/www/testwp2/wp-content/themes/quotesin/template-parts/content-art.php on line 9
+[04-Jan-2024 21:12:50 UTC] PHP Warning:  Undefined variable $argc in /var/www/testwp2/wp-content/themes/quotesin/template-parts/content-art.php on line 9
+[04-Jan-2024 21:12:50 UTC] PHP Warning:  Undefined variable $argc in /var/www/testwp2/wp-content/themes/quotesin/template-parts/content-art.php on line 9
+[04-Jan-2024 21:12:50 UTC] PHP Warning:  Undefined variable $argc in /var/www/testwp2/wp-content/themes/quotesin/template-parts/content-art.php on line 9
+[04-Jan-2024 21:12:55 UTC] PHP Warning:  Undefined array key "terms" in /var/www/testwp2/wp-content/themes/quotesin/app/Shortcodes.php on line 20
+[04-Jan-2024 21:13:07 UTC] PHP Warning:  Undefined array key "terms" in /var/www/testwp2/wp-content/themes/quotesin/app/Shortcodes.php on line 20
+[04-Jan-2024 21:13:17 UTC] PHP Warning:  Undefined array key "terms" in /var/www/testwp2/wp-content/themes/quotesin/app/Shortcodes.php on line 20
+[04-Jan-2024 21:13:28 UTC] PHP Warning:  Undefined array key "terms" in /var/www/testwp2/wp-content/themes/quotesin/app/Shortcodes.php on line 20
+[04-Jan-2024 21:14:14 UTC] PHP Warning:  Undefined array key "terms" in /var/www/testwp2/wp-content/themes/quotesin/app/Shortcodes.php on line 20
+[04-Jan-2024 21:14:32 UTC] PHP Warning:  Undefined array key "terms" in /var/www/testwp2/wp-content/themes/quotesin/app/Shortcodes.php on line 20
+[04-Jan-2024 21:14:32 UTC] PHP Warning:  Undefined array key "terms" in /var/www/testwp2/wp-content/themes/quotesin/app/Shortcodes.php on line 20
+[04-Jan-2024 21:14:33 UTC] PHP Warning:  Undefined array key "terms" in /var/www/testwp2/wp-content/themes/quotesin/app/Shortcodes.php on line 20
+[04-Jan-2024 21:15:56 UTC] PHP Warning:  Undefined array key "terms" in /var/www/testwp2/wp-content/themes/quotesin/app/Shortcodes.php on line 20
+[04-Jan-2024 21:16:13 UTC] PHP Warning:  Undefined array key "terms" in /var/www/testwp2/wp-content/themes/quotesin/app/Shortcodes.php on line 20
+[04-Jan-2024 21:16:21 UTC] PHP Warning:  Undefined array key "terms" in /var/www/testwp2/wp-content/themes/quotesin/app/Shortcodes.php on line 20
+[04-Jan-2024 21:16:51 UTC] PHP Warning:  Undefined array key "terms" in /var/www/testwp2/wp-content/themes/quotesin/app/Shortcodes.php on line 20
+[04-Jan-2024 21:17:11 UTC] PHP Warning:  Undefined array key "terms" in /var/www/testwp2/wp-content/themes/quotesin/app/Shortcodes.php on line 20
+[04-Jan-2024 21:17:12 UTC] PHP Warning:  Undefined array key "terms" in /var/www/testwp2/wp-content/themes/quotesin/app/Shortcodes.php on line 20
+[04-Jan-2024 21:17:13 UTC] PHP Warning:  Undefined array key "terms" in /var/www/testwp2/wp-content/themes/quotesin/app/Shortcodes.php on line 20
+[04-Jan-2024 21:17:15 UTC] PHP Warning:  Undefined array key "terms" in /var/www/testwp2/wp-content/themes/quotesin/app/Shortcodes.php on line 20
+[04-Jan-2024 21:17:50 UTC] PHP Warning:  Undefined array key "terms" in /var/www/testwp2/wp-content/themes/quotesin/app/Shortcodes.php on line 20
+[04-Jan-2024 21:18:12 UTC] PHP Warning:  Undefined array key "terms" in /var/www/testwp2/wp-content/themes/quotesin/app/Shortcodes.php on line 20
+[04-Jan-2024 21:18:33 UTC] PHP Warning:  Undefined array key "terms" in /var/www/testwp2/wp-content/themes/quotesin/app/Shortcodes.php on line 20
+[04-Jan-2024 21:19:37 UTC] PHP Warning:  Undefined array key "terms" in /var/www/testwp2/wp-content/themes/quotesin/app/Shortcodes.php on line 20
+[04-Jan-2024 21:19:51 UTC] PHP Warning:  Undefined array key "terms" in /var/www/testwp2/wp-content/themes/quotesin/app/Shortcodes.php on line 20
+[04-Jan-2024 21:19:53 UTC] PHP Warning:  Undefined array key "terms" in /var/www/testwp2/wp-content/themes/quotesin/app/Shortcodes.php on line 20
+[04-Jan-2024 21:20:48 UTC] PHP Warning:  Undefined array key "terms" in /var/www/testwp2/wp-content/themes/quotesin/app/Shortcodes.php on line 20
+[04-Jan-2024 21:20:49 UTC] PHP Warning:  Undefined array key "terms" in /var/www/testwp2/wp-content/themes/quotesin/app/Shortcodes.php on line 20
+[04-Jan-2024 21:20:51 UTC] PHP Warning:  Undefined array key "terms" in /var/www/testwp2/wp-content/themes/quotesin/app/Shortcodes.php on line 20
+[04-Jan-2024 21:21:20 UTC] PHP Warning:  Undefined array key "terms" in /var/www/testwp2/wp-content/themes/quotesin/app/Shortcodes.php on line 20
+[04-Jan-2024 21:21:49 UTC] PHP Warning:  Undefined array key "terms" in /var/www/testwp2/wp-content/themes/quotesin/app/Shortcodes.php on line 20
+[04-Jan-2024 21:21:49 UTC] PHP Warning:  Undefined array key "terms" in /var/www/testwp2/wp-content/themes/quotesin/app/Shortcodes.php on line 20
+[04-Jan-2024 21:21:52 UTC] PHP Warning:  Undefined array key "terms" in /var/www/testwp2/wp-content/themes/quotesin/app/Shortcodes.php on line 20
+[04-Jan-2024 21:22:14 UTC] PHP Warning:  Undefined array key "terms" in /var/www/testwp2/wp-content/themes/quotesin/app/Shortcodes.php on line 20
+[04-Jan-2024 21:22:26 UTC] PHP Warning:  Undefined array key "terms" in /var/www/testwp2/wp-content/themes/quotesin/app/Shortcodes.php on line 20
+[04-Jan-2024 21:22:47 UTC] PHP Warning:  Undefined array key "terms" in /var/www/testwp2/wp-content/themes/quotesin/app/Shortcodes.php on line 20
+[04-Jan-2024 21:24:01 UTC] PHP Warning:  Undefined array key "terms" in /var/www/testwp2/wp-content/themes/quotesin/app/Shortcodes.php on line 20
+[04-Jan-2024 21:25:12 UTC] PHP Warning:  Undefined array key "terms" in /var/www/testwp2/wp-content/themes/quotesin/app/Shortcodes.php on line 20

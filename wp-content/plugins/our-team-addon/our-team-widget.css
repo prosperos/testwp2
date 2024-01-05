@@ -1,0 +1,48 @@
+/* Wrapper for the team members */
+.our-team-wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    margin: -15px; /* Negative margin to counteract column spacing */
+}
+
+/* Style for each team member */
+.our-team-member {
+    width: 100%; /* Make each member take up the full width initially */
+    padding: 15px; /* Spacing between team members */
+    box-sizing: border-box;
+}
+
+/* Set the width based on the number of columns per row */
+.elementor-grid-2-columns .our-team-member,
+.elementor-grid-3-columns .our-team-member,
+.elementor-grid-4-columns .our-team-member,
+.elementor-grid-6-columns .our-team-member {
+    width: calc(100% / 2);
+}
+
+/* Style for the member image */
+.our-team-member img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 50%; /* Make the image circular */
+}
+
+/* Style for member name */
+.our-team-member-name {
+    font-size: 18px;
+    margin-top: 10px;
+}
+
+/* Style for member description */
+.our-team-member-description {
+    font-size: 14px;
+    color: #666;
+    margin-top: 5px;
+}
+
+/* Clearfix to handle float alignment */
+.elementor-clearfix::after {
+    content: "";
+    display: table;
+    clear: both;
+}

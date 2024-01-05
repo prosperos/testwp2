@@ -1,0 +1,8 @@
+{
+  "autoload": {
+    "psr-4": {
+      "Quotesin\\": "app/"
+    },
+    "files": ["app/bootstrap.php"]
+  }
+}
