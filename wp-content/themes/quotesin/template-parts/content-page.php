@@ -9,7 +9,7 @@
 
 ?>
 
-<div <?php post_class( 'inside item' ); ?>>
+<div>
 	<div class="quotesingle">
 		<a href="<?php the_permalink(); ?>"><?php the_post_thumbnail( 'quotesin-page', array( 'class' => 'featured-image' ) ); ?></a>
 
@@ -18,10 +18,9 @@
 		<?php the_category( ' ' ); ?>
 		</div>
 	</div>
-	<div id="content">
 		<?php
 			wp_link_pages();
 			the_content();
 		?>
-	</div>
+
 	

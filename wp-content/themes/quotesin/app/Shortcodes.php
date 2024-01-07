@@ -55,12 +55,12 @@ class Shortcodes
         $query = new \WP_Query($query_args);
 
         if ($query->have_posts()) {
-
+            echo '<div class="masonry" id="scroll-wrapper">';
             while ($query->have_posts()) {
                 $query->the_post();
                 $output = get_template_part( 'template-parts/content-art', get_post_type() , ['taxonomy' => $atts['taxonomy']] );
             }
-
+            echo '</div>';
             wp_reset_postdata();
         } else {
             $output = 'No posts found';

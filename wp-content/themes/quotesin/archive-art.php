@@ -21,11 +21,8 @@ get_header();
                 ?>
             </div>
             <div class="masonry" id="scroll-wrapper">
-                <?php
-                echo do_shortcode('[art_posts posts_count="10" order="ASC" orderby="title" taxonomy="music" ]');//terms="1,2,3" photography
-             ?>
+                <?php echo do_shortcode('[art_posts posts_count="10" order="ASC" orderby="title" taxonomy="music" ]');//terms="1,2,3" photography ?>
             </div>
-
         </div>
     </div>
 <?php else : ?>
